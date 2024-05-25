@@ -1,0 +1,78 @@
+body{
+    background-color: #ffffff;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 1200px;
+     margin: 0 auto;
+    padding: 15px;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #title{
+        flex-direction: column;
+        line-height: 20px;
+        padding: 10px;
+        
+    }
+    li{
+        display: inline-block;
+        margin: 20px;
+        color: cyan;
+        
+    }
+    #Chave-Pix.btn{
+        border: 2px solid cyan;
+        padding: 10px;
+        border-radius: 20px;
+    }
+ 
+  .link:hover{
+    color: blueviolet;
+    transition: 0.3s all;
+  }
+    h1{
+        font-weight: 200;
+        color: cyan;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        
+    }
+    h2{
+        font-size: 56px;
+        line-height: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    p{
+        line-height: 20px;
+        max-width: 500px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-right: 200px;
+    }
+    img{
+     width: 400px;
+    
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 70%; 
+    }
+    input{
+       margin-top: 20px;
+       border: none;
+       height: 20px;
+       border-radius: 20px;
+       font-size: 15px;
+       padding: 15px;
+    }
+
+    
